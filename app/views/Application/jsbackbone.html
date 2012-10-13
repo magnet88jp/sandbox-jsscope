@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Sample Project</title>
+</head>
+<body>
+  <h1>require</h1>
+  <div id="main"></div>
+  <script id="entry-template" type="text/template">
+    <h2><%- title %></h2>
+    <div><%- content %></div>
+  </script>
+
+
+  <!-- data-main attribute tells require.js to load
+    scripts/main.js after require.js loads. -->
+ <script data-main="/public/javascripts/backbone-main" src="/public/javascripts/require.js"></script>
+</body>
+</html>

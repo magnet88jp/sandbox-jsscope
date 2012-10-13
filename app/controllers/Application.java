@@ -16,4 +16,13 @@ public class Application extends Controller {
     public static void jsscope() {
         render();
     }
+
+    public static void jsrequire() {
+        render();
+    }
+
+    public static void jsbackbone() {
+        render();
+    }
+
 }

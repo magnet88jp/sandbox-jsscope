@@ -1,0 +1,12 @@
+Account(admin):
+    email:          admin@scalam.jp
+    password:       secret
+    fullname:       admin
+
+Blog(foo):
+    title:          foo
+    content:        bar
+
+Blog(hoge):
+    title:          hoge
+    content:        fuga
